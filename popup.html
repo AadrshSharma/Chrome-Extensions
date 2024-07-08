@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tracker Popup</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+        width: 300px;
+      }
+      h1 {
+        text-align: center;
+      }
+      .logo {
+        display: block;
+        margin: 0 auto;
+        width: 90px; /* Adjust size as needed */
+        height: 50px; /* Adjust size as needed */
+      }
+      .history-list {
+        margin-top: 20px;
+        max-height: 200px; /* Limit height to fit content */
+        overflow-y: auto; /* Enable scrolling */
+        border: 1px solid #ccc;
+        padding: 10px;
+      }
+      .history-item {
+        margin-bottom: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <img
+        src="https://assets.noeticitservices.com/d3848613-6e8c-40ff-9883-5f7505b4fda7/project-assets/images/noetic_logo.png"
+        alt="Extension Icon"
+        class="logo"
+      />
+      <h1>History Tracker</h1>
+      <div class="history-list" id="historyList">Developr Aadrsh</div>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
